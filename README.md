@@ -18,7 +18,7 @@ Este proyecto es una tienda en línea especializada en trombones de alta calidad
 
 ## Descripción
 
-Trombones Originales es una tienda en línea que se centra en la venta de trombones artesanales de alta calidad. Este proyecto utiliza tecnologías web modernas para garantizar un rendimiento óptimo y proporcionar una experiencia de usuario excepcional.
+Trombones Originales representa una plataforma de comercio electrónico especializada en la comercialización de trombones artesanales de alta gama. Este proyecto es una aplicación web diseñada meticulosamente utilizando las tecnologías fundamentales de la web: HTML y CSS.
 
 ## Capturas de Pantalla
 
@@ -28,7 +28,7 @@ Trombones Originales es una tienda en línea que se centra en la venta de trombo
 
 ## Demo en Vivo
 
-Puedes explorar el proyecto en vivo visitando [nuestra página de demostración](#).
+Puedes explorar el proyecto en vivo visitando [nuestra página de demostración](https://kevinrivera1.github.io/WEB-TROMBONES/).
 
 ## Tecnologías Utilizadas
 
