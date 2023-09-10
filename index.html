@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TROMBONES</title>
+  <link rel="stylesheet" href="./styles/estilos-dist.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div id="page-wrapper">
+    <header id="header">
+      <div class="logo">
+        <img id="header-img"
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+          alt="original trombones logo" />
+      </div>
+
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#features">Carecterísticas</a></li>
+          <li>
+            <a class="nav-link" href="#how-it-works">Como funcionamos</a>
+          </li>
+          <li><a class="nav-link" href="#pricing">Precios</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container"></div>
+
+    <section id="hero">
+      <h2>Obras Maestras Artesanales y Caseras Hechas a Mano</h2>
+      <form id="form">
+        <input name="email" id="email" type="email" placeholder="Ingrese su Email" required />
+        <input id="submit" type="submit" value="Enviar" class="btn" />
+      </form>
+    </section>
+
+    <div class="container">
+      <section id="features">
+        <div class="grid">
+          <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+          <div class="desc">
+            <h2>Materiales de Calidad</h2>
+            <p>
+              Nuestros trombones utilizan el latón mas brillante que se
+              obtiene localmente.Este aumenta la calidad de su compra.
+            </p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+          <div class="desc">
+            <h2>Envío rápido</h2>
+            <p>
+              Nos aseguramos de que reciba su trombón tan pronto como hayamos
+              terminado de fabricarlo. También ofrecemos devoluciones
+              gratuitas si no está satisfecho.
+            </p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon">
+            <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+          </div>
+          <div class="desc">
+            <h2>Garantía de calidad</h2>
+            <p>
+              Por cada compra que realice, nos aseguraremos de que no haya
+              daños o y comprobaremos la afinación de su instrumento.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="how-it-works">
+        <iframe id="video" height="315"
+          src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"
+          allowfullscreen></iframe>
+      </section>
+      <section id="pricing">
+        <div class="product" id="tenor">
+          <div class="level">Trombón Tenor</div>
+          <h2>$600</h2>
+          <ol>
+            <li>Calidad.</li>
+            <li>Material.</li>
+            <li>Longitud.</li>
+            <li>Tipo trombón.</li>
+          </ol>
+          <button class="btn">Seleccionar</button>
+        </div>
+        <div class="product" id="bass">
+          <div class="level">Trombón Bass</div>
+          <h2>$900</h2>
+          <ol>
+            <li>Tombón de Jazz</li>
+            <li>Calidad.</li>
+            <li>Longitud Trompeta.</li>
+            <li>Tipo trombón.</li>
+          </ol>
+          <button class="btn">Seleccionar</button>
+        </div>
+        <div class="product" id="valve">
+          <div class="level">Trombón Valve</div>
+          <h2>$1200</h2>
+          <ol>
+            <li>Trombones similares</li>
+            <li>Jazz para bandas</li>
+            <li>Calidad</li>
+            <li>Material</li>
+          </ol>
+          <button class="btn">Seleccionar</button>
+        </div>
+      </section>
+      <footer>
+        <ul>
+          <li><a href="#">Privacidad</a></li>
+          <li><a href="#">Terminos y condiciones</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+        <span>Copyright 2021, Trombones Originales</span>
+      </footer>
+    </div>
+  </div>
+</body>
+
+</html>
